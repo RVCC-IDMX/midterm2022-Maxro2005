@@ -1,0 +1,58 @@
+body {
+    font-family: "Open Sans";
+    background-color: #F5E284;
+    color: #3F39F5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display";
+    text-align: center;
+}
+
+h1 {
+    font-size: 40pt;
+}
+
+header, footer {
+    text-align: center;
+}
+
+/* Image Section */
+
+img {
+    width: 200px;
+    border: 10px solid #3F39F5;
+    margin-bottom: 30px;
+}
+
+/* Bio Section */
+
+#bio {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Websites Section */
+
+#websites {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#websites ul li:nth-child(odd) {
+    color: #000;
+}
+
+/* Reviews Section */
+
+#reviews {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+div {
+    max-width: 400px;
+    margin: 0 auto;
+}
